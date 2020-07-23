@@ -11,7 +11,7 @@ describe("Manage Inventory Test cases" , function(){
 
     beforeAll(function()
   {
-     browser.manage().timeouts().implicitlyWait(3000);
+     browser.manage().timeouts().implicitlyWait(5000);
      browser.manage().window().maximize();
      LT.jhLogin();
   });
